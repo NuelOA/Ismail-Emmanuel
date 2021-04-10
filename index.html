@@ -7,22 +7,22 @@
   </head>
 
   <body>
-    <h1> Hello World, we are software developers!</h1>
-     
+    
+    <h1> Hello World, we are software developers!</h1>   
 
     <h1 id="title">Survey Form</h1>
      <p id="description">This is a description of this form</p>
       
      <form id="survey-form">
       <label id="name-label"> Name:</label>
-      <input type="text" id="name"min="6" maxlength="30" placeholder="Full Name"/>
+      <input type="text" id="name"min="6" maxlength="30" placeholder="Full Name" required/>
 
       <label id="email-label">Email:</label>
-         <input type="email" id="email" min="6" maxlength="30" placeholder="Enter Email"/>
+         <input type="email" id="email" min="6" maxlength="30" placeholder="Enter Email" required/>
 
          <label id="number-label">Number:</label>
          <input type="number" id="number" min="6" maxlength="30" placeholder="Enter number"/>
-         <br />
+         <br/>
          <select id="dropdown">
           <option>hello</option>
           <option>hi</option>
@@ -31,8 +31,8 @@
 
         <fieldset name="radiobuttons">
             Javascript<input type="radio"/>
-            Java<input type="radio"/>
-            Python<input type="radio"/>
+            PHP<input type="radio"/>
+            C#<input type="radio"/>
      </fieldset>
 
 
@@ -44,7 +44,7 @@
       <label>Comments:</label>
      <input type="textarea" maxlength="500">
 
-     <input type="submit" value="submit">
+     <input type="button" value="submit" id="submit">
      </form>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
